@@ -1,0 +1,20 @@
+Criação de Banco de dados no MySQL
+
+create database cadastro;
+
+use cadastro;
+
+create table usuarios(
+	id int primary key auto_increment,
+	nome_receita varchar(100),
+	nome_usuario varchar(100),
+	ingredientes varchar(1000),
+	previsto_kg varchar(100),
+	data date
+);
+
+
+dificuldade:
+minha dificuldade foi em rodar a tabela relacional para os ingredientes, foi onde tive a maior demanda de tempo, porém nao consegui resultado!
+
+
